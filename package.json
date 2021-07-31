@@ -1,0 +1,19 @@
+{
+  "name": "magnova-engineers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dibyanshu04/magnova-engineers.git"
+  },
+  "author": "Dibyanshu Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dibyanshu04/magnova-engineers/issues"
+  },
+  "homepage": "https://github.com/dibyanshu04/magnova-engineers#readme"
+}
