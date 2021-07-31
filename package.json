@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/dibyanshu04/magnova-engineers/issues"
   },
-  "homepage": "https://github.com/dibyanshu04/magnova-engineers#readme"
+  "homepage": "https://github.com/dibyanshu04/magnova-engineers#readme",
+  "dependencies": {}
 }
