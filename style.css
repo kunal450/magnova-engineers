@@ -1,4 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&family=Roboto&family=Poppins:ital,wght@1,100&display=swap");
+body#index {
+  background-image: url("assests/BG LAST.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  z-index: -1;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #ffffff;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: white;
+}
+
 /* Typography classes*/
 .font-monte-carlo {
   font-family: "MonteCarlo", cursive;
@@ -6,6 +29,212 @@
 
 .font-roboto {
   font-family: "Roboto", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation */
+.navbar {
+  margin-left: 85px;
+  margin-right: 115px;
+  margin-top: 50px;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: 127px;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link, .nav-link:hover {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-link:active {
+  color: white;
+}
+
+.bannere {
+  height: 100%;
+}
+
+.banner-name {
+  margin-top: 23vh;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font: normal 11.625rem/14.75rem Lucida Sans Unicode;
+  letter-spacing: 3.188rem;
+  transition: 0.5s;
+  color: #50f8ff;
+}
+
+.banner-girl img {
+  left: 30vw;
+  top: -10vh;
+  position: relative;
+  z-index: 2;
+}
+
+.banner-grid > img {
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+  position: relative;
+  top: -36vh;
+}
+
+.section-2 {
+  margin: 0;
+  padding: 100px 100px 200px 100px;
+}
+
+.section-2 > .col-lg-4, .col-lg-8 {
+  margin: 0;
+  padding: 0px 25px;
+}
+
+.section-2 > .col-lg-8 > p {
+  padding: 0px 40px;
+  font-size: 1.2rem;
+}
+
+.section-3 {
+  margin: 100px 0;
+}
+
+.section-3 > .col-lg-4 > img {
+  padding: 0 40px 40px 40px;
+}
+
+.section-3 > .col-lg-4 > h1 {
+  text-align: center;
+  color: #00B2FF;
+}
+
+.section-3 > .col-lg-4 > p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.section-3 > .col-lg-4 > h4 {
+  text-align: center;
+  color: #FF6584;
+}
+
+.section-4 > p {
+  margin-top: 30px;
+  margin-right: 400px;
+  font-size: 1.1rem;
+}
+
+.section-5 {
+  margin: 100px 0 0 0;
+}
+
+.section-5 img {
+  margin: 10% -2.5%;
+}
+
+.section-5 .meter {
+  height: 400px;
+  margin: 0;
+}
+
+.section-5 .rect-1 {
+  height: 200px;
+  z-index: -1;
+  opacity: 0.15;
+}
+
+.section-5 .rect-2 {
+  height: 225px;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.section-5 .rect-3 {
+  height: 350px;
+  width: auto;
+  z-index: 1;
+}
+
+.section-6 {
+  margin: 100px 100px;
+  height: 100%;
+}
+
+.section-6 img {
+  height: 350px;
+}
+
+.section-6 .certificate-cover {
+  z-index: 1;
+}
+
+.section-6 .certificate-onhover {
+  height: 260px;
+  left: -210px;
+  position: relative;
+  margin: 50px;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.section-6 .certificate-onhover:hover {
+  transform: rotate(10deg);
+  left: -150px;
+  opacity: 1;
+}
+
+.section-6 .certificate-text {
+  margin: 10% 0;
+}
+
+.footer-heading {
+  padding: 40px 10px;
+  font-family: "MonteCarlo", cursive;
+  text-shadow: 2px 2px 3px #ff6584;
+  transition: 0.5s;
+  text-decoration: overline;
+}
+
+.footer-form {
+  padding: 0 50px;
+}
+
+.footer-form input {
+  padding: 5px 10px;
+  margin: 5px 0px;
+  border: none;
+}
+
+.footer-form input:focus, textarea:focus, select:focus {
+  outline: none;
+  background: rgba(0, 0, 0, 0.082);
+  transition: 0.5s;
+  border: none;
+  color: white;
+}
+
+.footer-form {
+  padding: 5px 0px;
+  margin: 5px 0px;
+}
+
+.footer-list li {
+  padding: 10px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-list li:hover {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
