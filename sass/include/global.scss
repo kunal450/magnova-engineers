@@ -1,41 +1,48 @@
-body#index{
+* {
+  z-index: 1;
+}
+body#index {
   background: rgb(36, 36, 36);
-  // background-image: url('assests/BG LAST.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100%;
-  z-index: -1;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-a:hover, a:active {
-    color:#ffffff; 
-    text-decoration:none !important;
-    cursor:pointer;  
+a:hover,
+a:active {
+  color: #ffffff;
+  text-decoration: none !important;
+  cursor: pointer;
 }
-h1,h2,h3,h4,h5,h6,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   color: white;
 }
-/* Scroll Bar*/ 
+/* Scroll Bar*/
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
+  // display: none;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $color-pink; 
+  background: $color-pink;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: $color-blue; 
+  background: $color-blue;
 }
