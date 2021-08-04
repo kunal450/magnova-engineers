@@ -1,0 +1,127 @@
+/* General Page */
+.page-display {
+  font-family: Impact;
+  margin-left: 20vw;
+  transition: 3s;
+}
+.page-bulb {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -5%;
+  opacity: 0.9;
+}
+
+.page-display h1 {
+  font-size: 8rem;
+  color: #ff6584ab;
+}
+.page-main {
+  transition: 2s;
+  // padding: 0 20vw;
+  background-color: rgb(68, 181, 185);
+  padding: 10vh 15vw;
+  margin-top: -33px;
+}
+.page-main .col-lg-4 {
+  background-color: #00000028;
+  padding: 50px 0 0 0;
+  margin: 5px -5px;
+}
+.page-main .contact-heading {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 75%;
+  border: none;
+  border-radius: 50px;
+  margin: 5% 12%;
+  padding: 4% 0;
+  font: normal normal bold 20px/27px Nunito Sans;
+  letter-spacing: 0px;
+  color: #464646;
+}
+.page-main .contact-body {
+  width: 75%;
+  height: 30vh;
+  margin: 2% 12%;
+  padding: 4% 20%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 15px 15px 119px 15px;
+  opacity: 0.49;
+  margin-bottom: 100px;
+}
+.page-main .contact-body p {
+  text-align: left;
+  letter-spacing: NaNpx;
+  color: #000000;
+  opacity: 0.63;
+}
+
+/*  modal  */
+.modal h5 {
+  color: #000000;
+}
+.modal {
+  backdrop-filter: blur(18px);
+}
+.modal-content {
+  box-shadow: 0px 3px 17px var(--unnamed-color-000000);
+  background: #22817e 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 17px #000000;
+  border-radius: 19px;
+}
+.modal-header .modal-title {
+  width: 75%;
+  margin: 5% 12%;
+  padding: 4% 0;
+  font: normal normal normal 22px/30px Tahoma;
+  letter-spacing: 0px;
+  color: #313131;
+  font-size: 22px;
+}
+.modal-header img {
+  padding: 0 2%;
+}
+.modal form input,
+.modal form label,
+.modal form textarea,
+.modal form p {
+  width: 75%;
+  margin: 0% 12%;
+}
+
+/* about us */
+.page-main .about-text {
+  color: #000000;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  font-family: $poppins;
+  font-weight: 900;
+}
+
+.vision-title-num {
+  font-size: 7rem;
+  font-family: $roboto;
+  font-weight: 900;
+  color: rgba(245, 245, 245, 0.75);
+  position: absolute;
+  transition: .5s;
+}
+.vision-title {
+  font-size: 2.5rem;
+  font-family: $monte-carlo;
+  font-weight: 800;
+  color: rgb(0, 96, 175);
+  margin-top: 5.5rem;
+  z-index: 9;
+  position: relative;
+  transition: 1s;
+}
+
+.vision-body {
+  color: #000000;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  font-family: $poppins;
+  font-weight: 900;
+}
