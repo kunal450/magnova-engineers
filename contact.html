@@ -103,11 +103,49 @@
             <div class="contact-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quod.</p></div>
         </div>
         <div class="col-lg-4"> 
-            <div class="btn btn-primary contact-heading"  file-alt><i class="fas fa-file-alt"></i> Fill contact form</div> 
+            <div class="btn btn-primary contact-heading" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-file-alt"></i> Fill contact form</div> 
             <div class="contact-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quod.</p></div>
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade  modal-dialog-scrollable" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Form</h5>
+                    <img src="./assests/Logo-yellow.svg" alt="">
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                    <form method="POST" action="">
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">FULL NAME</label>
+                            <input type="text" class="form-control" id="full-name" placeholder="Albert Einstein">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">EMAIL</label>
+                            <input type="email" class="form-control" id="email" placeholder="albereinstein@mail.com">
+                        </div>
+                        <!-- <div class="mb-3">
+                            <label for="message-text" class="col-form-label">SUBJECT</label>
+                            <input class="form-control" id="message-text" placeholder="Start typing here">
+                        </div> -->
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Message</label>
+                            <textarea class="form-control" id="message-text" placeholder="Start typing here"> </textarea>
+                        </div>
+                        <p class="text-warning"> Success Message</p>
+                        <div class="" style="margin: 50px 0 100px 0;">
+                            <input  type="submit" class="form-control btn  btn-primary" id="message-text">
+                        </div>
+
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer>
         <div class="container-fluid row">
