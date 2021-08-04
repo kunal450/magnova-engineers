@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.front{
+    transition: 250ms;
+   
+}
+.card{
+    width: 250px;
+    position: relative;
+    margin-top: 100px;
+}
+.stats{
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  align-items: center;
+}
+.viewers{
+    color: white;
+}
+.streamer{
+    align-self: flex-end;
+}
+.game1{
+    width: 100%;
+    border-radius: 10px;
+}
+.stre{
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+}
+.back{
+ 
+    display: none;
+
+}
+.bstats{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.background{
+    position: absolute;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+   transform: scale(.5);
+   transition: 250ms;
+   border-radius: 10px;
+}
+ .card:hover .background{
+    transform: scale(1.2);
+
+ }
+    .card:hover .front{
+         transform: translateY(-35%) scale(.9);
+     }
+.card:hover .stats{
+    display: none;
+}
+.card:hover h3{
+    text-align: center;
+}
+.card:hover .back{
+    display: block;
+}
+.course{
+    
+}
+
