@@ -44,12 +44,12 @@ p {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ff6584;
+  background: #FF6584;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #50f8ff;
+  background: #50F8FF;
 }
 
 /* Typography classes*/
@@ -80,8 +80,7 @@ p {
   padding: 0 20px;
 }
 
-.nav-link,
-.nav-link:hover {
+.nav-link, .nav-link:hover {
   color: white;
   font-size: 20px;
 }
@@ -102,8 +101,8 @@ p {
   font: normal 11.625vw/14.75vw Lucida Sans Unicode;
   letter-spacing: 3.188vw;
   transition: 0.5s;
-  color: #50f8ff;
-  text-shadow: #50f8ff 0px 0px 200px;
+  color: #50F8FF;
+  text-shadow: #50F8FF 0px 0px 200px;
 }
 
 .banner-sub {
@@ -163,7 +162,7 @@ p {
 
 .section-3 .card-text {
   margin-top: 50px;
-  color: #ff6584;
+  color: #FF6584;
   text-align: center;
   font-family: Gadugi;
 }
@@ -229,7 +228,7 @@ footer .footer-heading {
   text-align: center;
   list-style: none;
   padding-top: 10px;
-  color: #ff6584 !important;
+  color: #FF6584 !important;
 }
 
 .footer-section .footer-list a,
@@ -237,11 +236,11 @@ footer .footer-heading {
   text-align: center;
   list-style: none;
   padding-top: 10px;
-  color: #ff6584 !important;
+  color: #FF6584 !important;
   opacity: 0.5;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: #ff6584 !important;
+  color: #FF6584 !important;
   text-align: justify;
 }
 
@@ -284,7 +283,7 @@ footer .social-links a {
 footer .social-links a:hover,
 footer .social-links a:active {
   transition: 0.3s;
-  color: #50f8ff;
+  color: #50F8FF;
   text-decoration: none !important;
   cursor: pointer;
 }
@@ -294,6 +293,53 @@ footer .social-links a:active {
   font-family: "MonteCarlo", cursive;
   letter-spacing: 0.3vw;
   padding: 10px 0;
+}
+
+/* Contact Page */
+.contact-display {
+  font-family: Impact;
+  margin-left: 20vw;
+}
+
+.contact-display h1 {
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.contact-main {
+  background-color: #086562;
+  padding: 10vh 15vw;
+  margin-top: -33px;
+}
+
+.contact-main .contact-heading {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 75%;
+  border: none;
+  border-radius: 50px;
+  margin: 5% 12%;
+  padding: 4% 0;
+  font: normal normal bold 20px/27px Nunito Sans;
+  letter-spacing: 0px;
+  color: #464646;
+}
+
+.contact-main .contact-body {
+  width: 75%;
+  height: 30vh;
+  margin: 2% 12%;
+  padding: 4% 20%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 15px 15px 119px 15px;
+  opacity: 0.49;
+  margin-bottom: 100px;
+}
+
+.contact-main .contact-body p {
+  text-align: left;
+  letter-spacing: NaNpx;
+  color: #000000;
+  opacity: 0.63;
 }
 
 /*# sourceMappingURL=style.css.map */

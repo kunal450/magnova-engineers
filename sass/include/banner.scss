@@ -1,0 +1,37 @@
+.banner {
+  // height: 80vh;
+  height: 100%;
+  width: 100%;
+}
+.banner-name {
+  margin-top: 23vh;
+  text-transform: uppercase;
+  text-align: center;
+  font: normal 11.625vw/14.75vw Lucida Sans Unicode;
+  letter-spacing: 3.188vw;
+  transition: 0.5s;
+  color: $color-blue;
+  text-shadow: $color-blue 0px 0px 200px;
+}
+// .banner-name:hover {
+//   transform: scale(1.05);
+// }
+.banner-sub {
+  text-transform: uppercase;
+  font: normal 1.5vw/2vw Lucida Sans Unicode;
+  left: 9vw;
+  top: -4vh;
+  position: relative;
+  z-index: 1;
+  width: 15%;
+  text-shadow: white 0px 1px 25px;
+}
+
+.banner-girl img {
+  left: 30vw;
+  top: -9vh;
+  position: relative;
+  z-index: 1;
+  width: 15%;
+  height: auto;
+}
