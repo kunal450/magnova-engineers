@@ -316,7 +316,7 @@ footer .social-links a:active {
 }
 
 .page-main {
-  transition: 2s;
+  transition: 0.5s;
   background-color: #44b5b9;
   padding: 10vh 15vw;
   margin-top: -33px;
@@ -356,6 +356,13 @@ footer .social-links a:active {
   letter-spacing: NaNpx;
   color: #000000;
   opacity: 0.63;
+}
+
+.page-main .contact-map {
+  margin: 10vh 0;
+  padding: 2.5%;
+  background: #00000028;
+  align-self: center;
 }
 
 /*  modal  */

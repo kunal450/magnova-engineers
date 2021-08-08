@@ -16,7 +16,7 @@
   color: #ff6584ab;
 }
 .page-main {
-  transition: 2s;
+  transition: .5s;
   // padding: 0 20vw;
   background-color: rgb(68, 181, 185);
   padding: 10vh 15vw;
@@ -53,6 +53,13 @@
   letter-spacing: NaNpx;
   color: #000000;
   opacity: 0.63;
+}
+
+.page-main .contact-map{
+  margin: 10vh 0;
+  padding: 2.5%;
+  background: #00000028;
+  align-self: center;
 }
 
 /*  modal  */
