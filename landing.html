@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    .a{fill:#50f8ff;font-size:186px;font-family:LucidaSansUnicode, Lucida Sans Unicode;letter-spacing:0.082em;
+     animation: text 1000ms ;
+    }
+     .landing{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+       
+         transform: translate(-50%, -50%);
+     }
+     img{
+         width: 180px; 
+       animation: img-load 1000ms ;
+       position: absolute;
+       z-index: 1;
+       top: 37%;
+       left: 54.5%; 
+       opacity: 98%;
+     }
+ @keyframes img-load{
+     0% {
+         position: absolute;
+       top: 0px;
+       right: 0px;
+       left:100%;
+       z-index: 1;
+     }
+     100% {
+         position: absolute;
+         top: 37%;
+         left: 54.5%;
+         z-index: 1;
+         opacity: 98%;
+     }
+ }
+ @keyframes text{
+     0%{
+         letter-spacing: 1em;
+     }
+     100% {
+         letter-spacing: 0.082em;
+     }
+ }
+   
+    </style>
+</head>
+<body>
+   
+    <div class="after">
+    <img src="sun.svg" alt="">
+    <div class="landing">
+    <text class="a" transform="translate(0 204)"><tspan x="0" y="0">MAGNOVA</tspan></text>
+   </div>
+  </div>
+</body>
+</html>
