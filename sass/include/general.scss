@@ -110,10 +110,12 @@
   font-size: 2.5rem;
   font-family: $monte-carlo;
   font-weight: 800;
+  line-height: 0.8;
   color: rgb(0, 96, 175);
-  margin-top: 5.5rem;
+  margin-top: 6rem;
   z-index: 9;
   position: relative;
+  
   transition: 1s;
 }
 
